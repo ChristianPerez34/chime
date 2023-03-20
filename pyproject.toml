@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "chime"
+version = "0.1.0"
+description = "Rest API"
+authors = ["Christian Pérez Villanueva <christianp@e-3consulting.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.94.1"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.6"}
+asyncpg = "^0.27.0"
+alembic = "^1.10.2"
+uvicorn = "^0.21.0"
+python-dotenv = "^1.0.0"
+aiocoingecko = "^1.0.0"
+plotly = "^5.13.1"
+inflection = "^0.5.1"
+pandas = "^1.5.3"
+kaleido = "0.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+ruff = "^0.0.256"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
