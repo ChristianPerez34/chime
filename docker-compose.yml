@@ -13,5 +13,5 @@ services:
       - resurgence
 
 networks:
-  resurgence
+  resurgence:
     
