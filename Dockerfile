@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bullseye as python
+FROM python:3.10-slim-bullseye as python
 ENV PYTHONUNBUFFERED=true
 ENV PYTHONDONTWRITEBYTECODE=true
 WORKDIR /app

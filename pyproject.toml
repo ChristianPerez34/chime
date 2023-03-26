@@ -6,7 +6,7 @@ authors = ["Christian Pérez Villanueva <christianp@e-3consulting.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.10"
 fastapi = "^0.94.1"
 sqlalchemy = {extras = ["asyncio"], version = "^2.0.6"}
 asyncpg = "^0.27.0"
