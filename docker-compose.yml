@@ -9,4 +9,6 @@ services:
     ports:
       - "${PORT}:${PORT}"
     restart: unless-stopped
+    networks:
+      - resurgence
     
