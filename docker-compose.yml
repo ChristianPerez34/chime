@@ -11,4 +11,7 @@ services:
     restart: unless-stopped
     networks:
       - resurgence
+
+networks:
+  resurgence
     
