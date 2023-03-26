@@ -8,3 +8,5 @@ services:
     command: python main.py
     ports:
       - "${PORT}:${PORT}"
+    restart: unless-stopped
+    
