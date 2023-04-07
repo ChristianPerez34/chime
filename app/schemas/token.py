@@ -1,5 +1,13 @@
 from pydantic import BaseModel, validator
+from typing import List
 
+class TokenLookupItem(BaseModel):
+    id: str
+    symbol: str
+    name: str
+
+class TokenLookup(BaseModel):
+    data: List[TokenLookupItem]
 
 class SubmitToken(BaseModel):
     name: str
